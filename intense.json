@@ -1,40 +1,49 @@
 {
   "intents": [
     {
-      "tag": "saudacao",
-      "patterns": ["Oi", "Ola", "Oi tudo bem:", "Tem alguem ai?", "Pode me ajudar"],
-      "responses": ["Oi tudo bem e voce ?", "Ola, como posso te ajudar ?", "Oi, como podemos te ajudar?"],
-      "context_set": ""
+      "tag": "intro_comp",
+      "patterns": ["O que é ciência da computação?", "Explique ciência da computação", "O que envolve a ciência da computação?"],
+      "responses": ["Ciência da Computação é o estudo dos fundamentos teóricos e práticos da computação e suas aplicações.", "A ciência da computação é a disciplina que investiga algoritmos, estruturas de dados e tecnologias de processamento de informações."]
     },
     {
-      "tag": "despedida",
-      "patterns": ["Tchau", "Ate mais", "abracos"],
-      "responses": ["Até mais, obrigado pela visita!", "Tenha um otimo dia!", "Atè, um abraço."]
+      "tag": "algoritmos",
+      "patterns": ["O que são algoritmos?", "Explique algoritmos", "Como funcionam os algoritmos?"],
+      "responses": ["Algoritmos são sequências de passos bem definidos para resolver um problema ou executar uma tarefa.", "Algoritmos são instruções passo a passo que guiam um computador na resolução de problemas."]
     },
     {
-      "tag": "agradecimento",
-      "patterns": ["Obrigado", "Obrigado pela ajuda", "Muito obrgado","Voce me ajudou"],
-      "responses": ["De nada!", "Fico feliz em ajudar!", "Disponha"]
+      "tag": "ling_prog",
+      "patterns": ["Quais são algumas linguagens de programação?", "Liste linguagens de programação populares", "Cite exemplos de linguagens de codificação"],
+      "responses": ["Algumas linguagens populares são Python, Java, C++, JavaScript e Ruby.", "Linguagens de programação incluem Python, Java, C#, Swift e Kotlin."]
     },
     {
-      "tag": "horario",
-      "patterns": ["Que horas abre a loja?", "Voce abrem que horas?", "Qual o horario de funcionamento" ],
-      "responses": ["Nosso horario e das 08h as 23h", "Estamos aberto das  08h as 23h"]
+      "tag": "ia_ml",
+      "patterns": ["O que é Inteligência Artificial?", "Explique Machine Learning", "Como funciona a IA?"],
+      "responses": ["Inteligência Artificial é a simulação de processos de inteligência humana por máquinas.", "Machine Learning é um ramo da IA onde os computadores aprendem a partir de dados, melhorando sua performance ao longo do tempo."]
     },
     {
-      "tag": "produto",
-      "patterns": ["O que voces vendem ?", "Qual o seu produto?", "O que esta a venda?" ],
-      "responses": ["Nos trabalhamos com a producaoo de pizza artesanal.", "Pizza artesanais!"]
+      "tag": "bd",
+      "patterns": ["O que é um Banco de Dados?", "Explique sistemas de gerenciamento de bancos de dados", "Como funcionam os bancos de dados?"],
+      "responses": ["Um Banco de Dados é um sistema para armazenar, gerenciar e recuperar informações estruturadas.", "Sistemas de Gerenciamento de Bancos de Dados (SGBDs) são software que ajudam a organizar e acessar dados de maneira eficiente."]
     },
     {
-      "tag": "pagamentos",
-      "patterns": ["Voces aceitam cartao de credito?", "Aceita Mastercard?", "Posso pagar com cartao?" ],
-      "responses": ["Nos aceitamos VISA, Mastercard e AMEX", "Sim aceitamos cartoes de credito"]
+      "tag": "rede",
+      "patterns": ["O que é uma rede de computadores?", "Explique arquiteturas de redes", "Como funcionam as redes de computadores?"],
+      "responses": ["Uma rede de computadores é um conjunto de dispositivos interconectados que podem compartilhar recursos e informações.", "As redes de computadores permitem a troca de dados e recursos entre diferentes dispositivos, usando protocolos de comunicação."]
     },
     {
-      "tag": "cardapio",
-      "patterns": ["Quais os sabores de pizza?", "Pode me mandar o cardapio?", "Quais os sabores"],
-      "responses": ["Calabresa, Queijo, Mexicana","Acesse o link: https://www.pizzahut.com.br/"]
+      "tag": "comp_graf",
+      "patterns": ["O que é Computação Gráfica?", "Explique renderização 3D", "Como são criadas as imagens digitais?"],
+      "responses": ["Computação Gráfica envolve a geração, manipulação e exibição de imagens e vídeos digitais.", "A renderização 3D é o processo de criação de imagens tridimensionais a partir de modelos matemáticos."]
+    },
+    {
+      "tag": "seg_info",
+      "patterns": ["O que é Segurança da Informação?", "Explique criptografia", "Como proteger dados sensíveis?"],
+      "responses": ["Segurança da Informação trata da proteção de dados contra ameaças e ataques.", "Criptografia é a técnica de transformar informações em um formato ilegível para proteger sua confidencialidade."]
+    },
+    {
+      "tag": "sist_op",
+      "patterns": ["O que é um Sistema Operacional?", "Explique multitarefa", "Qual a função do kernel?"],
+      "responses": ["Um Sistema Operacional é um software que gerencia recursos e fornece uma interface entre o hardware e os aplicativos.", "Multitarefa é a capacidade de executar vários processos ao mesmo tempo em um sistema operacional.", "O kernel é o núcleo do sistema operacional, responsável pelo gerenciamento de recursos e execução de tarefas essenciais."]
     }
   ]
 }
